@@ -1,0 +1,96 @@
+﻿@model JobPortal1.Models.JobSeekerPersonalInfo
+
+@{
+    ViewBag.Title = "Personal Info";
+}
+
+<!-- Background Container with consistent properties -->
+<div class="background-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url('/Image/BackgroundRandom.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; z-index: -1;">
+</div>
+
+<!-- Main content container to overlay the background -->
+<div class="container-fluid" style="position: relative; z-index: 1; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 40px;">
+    <div class="row" style="width: 100%; max-width: 800px;">
+        <!-- Form Fields for Personal Info -->
+        <div class="col-md-12" style="background-color: rgba(120, 149, 162, 0.8); padding: 40px; border-radius: 10px;">
+            <h1 style="font-size: 36px; font-weight: bold; color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Personal Information</h1>
+
+            <p style="color: #FFD700; font-size: 16px; margin-top: 10px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">
+                Please do not abbreviate any values in the form fields.
+            </p>
+
+            <form asp-action="PersonalInfo" method="post">
+                <!-- First Name -->
+                <div class="form-group">
+                    <label style="color: white;">First Name:</label>
+                    <input asp-for="FirstName" class="form-control" readonly style="padding: 15px; font-size: 18px; border-radius: 10px; background-color: #E0E0E0; border: none; margin-bottom: 20px;" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+                <!-- Last Name -->
+                <div class="form-group">
+                    <label style="color: white;">Last Name:</label>
+                    <input asp-for="LastName" class="form-control" readonly style="padding: 15px; font-size: 18px; border-radius: 10px; background-color: #E0E0E0; border: none; margin-bottom: 20px;" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="form-group">
+                    <label style="color: white;">Phone Number:</label>
+                    <input asp-for="PhoneNumber" class="form-control" readonly style="padding: 15px; font-size: 18px; border-radius: 10px; background-color: #E0E0E0; border: none; margin-bottom: 20px;" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+
+                <!-- City -->
+                <div class="form-group">
+                    <label style="color: white;">City:</label>
+                    <input asp-for="City" class="form-control" placeholder="Enter your city" style="padding: 15px; font-size: 18px; border-radius: 10px; background-color: #F2F2F2; border: none; margin-bottom: 20px;" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+
+                <!-- Province -->
+                <div class="form-group">
+                    <label style="color: white;">Province:</label>
+                    <input asp-for="Province" class="form-control" placeholder="Enter your province" style="padding: 15px; font-size: 18px; border-radius: 10px; background-color: #F2F2F2; border: none; margin-bottom: 20px;" />
+                    <span asp-validation-for="Province" class="text-danger"></span>
+                </div>
+
+                <!-- Suburb -->
+                <div class="form-group">
+                    <label style="color: white;">Suburb:</label>
+                    <input asp-for="Suburb" class="form-control" placeholder="Enter your suburb" style="padding: 15px; font-size: 18px; border-radius: 10px; background-color: #F2F2F2; border: none; margin-bottom: 20px;" />
+                    <span asp-validation-for="Suburb" class="text-danger"></span>
+                </div>
+
+                <!-- Level of Education -->
+                <div class="form-group">
+                    <label style="color: white;">Level of Education:</label>
+                    <select asp-for="LevelOfEducation" class="form-control" style="padding: 15px; font-size: 18px; border-radius: 10px; background-color: #F2F2F2; border: none; margin-bottom: 20px;">
+                        <option value="Primary">Primary</option>
+                        <option value="High">High</option>
+                        <option value="Tertiary">Tertiary</option>
+                        <option value="Non">Non</option>
+                    </select>
+                    <span asp-validation-for="LevelOfEducation" class="text-danger"></span>
+                </div>
+
+                <!-- About You -->
+                <div class="form-group">
+                    <label style="color: white;">About You:</label>
+                    <textarea asp-for="AboutYou" class="form-control" placeholder="Tell us about yourself" style="padding: 15px; font-size: 18px; border-radius: 10px; background-color: #F2F2F2; border: none; margin-bottom: 20px;"></textarea>
+                    <span asp-validation-for="AboutYou" class="text-danger"></span>
+                </div>
+
+                <!-- Hidden JobSeekerId -->
+                <input type="hidden" asp-for="JobSeekerId" value="@ViewBag.JobSeekerId" />
+
+                <!-- Next Button -->
+                <button type="submit" class="btn btn-primary" style="width: 100%; padding: 10px; font-size: 18px; border-radius: 25px;">Next</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

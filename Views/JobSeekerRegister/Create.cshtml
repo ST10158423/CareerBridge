@@ -1,0 +1,90 @@
+﻿@model JobPortal1.Models.JobSeeker
+
+@{
+    ViewBag.Title = "Job Seeker Registration";
+}
+
+<!-- Main container with consistent background properties -->
+<div class="background-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url('/Image/BackgroundAddSkill.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; z-index: -1;">
+</div>
+
+<!-- Main content container with form centered -->
+<div class="container-fluid" style="position: relative; z-index: 1; min-height: 100vh; display: flex; align-items: center; justify-content: center;">
+    <!-- Register form container -->
+    <div class="register-form" style="max-width: 450px; width: 100%; padding: 50px; background-color: rgba(128, 128, 128, 0.85); border-radius: 15px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
+        <!-- Register Header -->
+        <h1 style="font-size: 48px; font-weight: bold; color: #FFFFFF; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">REGISTER (JOB SEEKER)</h1>
+
+        <form asp-action="Create" method="post">
+            <!-- Full Name Input -->
+            <div class="form-group mt-4">
+                <input asp-for="FirstName" class="form-control" placeholder="FIRST NAME" style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: rgba(255, 255, 255, 0.8); border: none; margin-bottom: 20px;" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+
+            <!-- Last Name Input -->
+            <div class="form-group mt-4">
+                <input asp-for="LastName" class="form-control" placeholder="LAST NAME" style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: rgba(255, 255, 255, 0.8); border: none; margin-bottom: 20px;" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+
+            <!-- Phone Number Input -->
+            <div class="form-group">
+                <input asp-for="PhoneNumber" class="form-control" placeholder="PHONE NUMBER" style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: rgba(255, 255, 255, 0.8); border: none; margin-bottom: 20px;" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+
+            <!-- Terms of Service and POPIA Act Notice -->
+            <div class="form-group" style="background-color: rgba(128, 128, 128, 0.85); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                <p style="font-size: 16px; color: #FFFFFF; text-align: center;">
+                    By registering, you agree to our
+                    <a href="/Terms" style="color: #007BFF; text-decoration: underline;">Terms of Service</a>
+                    and acknowledge our compliance with the
+                    <a href="/Popia" style="color: #007BFF; text-decoration: underline;">POPIA Act</a>.
+                    Your information will be securely stored in our database.
+                </p>
+            </div>
+
+            <!-- Consent Dropdown -->
+            <div class="form-group">
+                <select asp-for="VisibilityConsent" id="consentDropdown" class="form-control" onchange="toggleRegisterButton()" style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: rgba(255, 255, 255, 0.8); border: none; margin-bottom: 20px;">
+                    <option value="false">DO NOT CONSENT</option>
+                    <option value="true">CONSENT</option>
+                </select>
+                <span asp-validation-for="VisibilityConsent" class="text-danger"></span>
+            </div>
+
+            <!-- Register Button -->
+            <div class="mt-4">
+                <button id="registerButton" type="submit" class="btn btn-primary btn-block" style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 40px; font-size: 16px; width: 100%;">Register</button>
+            </div>
+
+            <!-- Hidden field for UserId -->
+            <input type="hidden" asp-for="UserId" value="@Model.UserId" />
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+    <script>
+        function toggleRegisterButton() {
+            var consentDropdown = document.getElementById("consentDropdown");
+            var registerButton = document.getElementById("registerButton");
+
+            // If "DO NOT CONSENT" is selected, disable the Register button
+            if (consentDropdown.value === "false") {
+                registerButton.disabled = true;
+                registerButton.style.backgroundColor = "#AAAAAA"; // Grey out the button
+            } else {
+                registerButton.disabled = false;
+                registerButton.style.backgroundColor = "#1D4E7B"; // Re-enable the button color
+            }
+        }
+
+        // Call the toggle function on page load to set the initial button state
+        document.addEventListener("DOMContentLoaded", function () {
+            toggleRegisterButton();
+        });
+    </script>
+}

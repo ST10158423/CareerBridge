@@ -1,0 +1,761 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\jobseekerregister\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekerregister\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\jobseekerworkexp\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekerworkexp\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\employersettings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\employersettings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\employerregister\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\employerregister\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\jobseekerprofile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekerprofile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\manageusers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\manageusers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\manageusers\\createadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\manageusers\\createadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\jobseekerdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekerdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\desktop\\final-app\\wilwefeedsa\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\controllers\\userregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\userregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\jobseekercertificate\\editcertificates.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekercertificate\\editcertificates.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\jobseekercertificate\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekercertificate\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\jobseekerworkexp\\editworkexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekerworkexp\\editworkexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\skills\\editskills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\skills\\editskills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\skills\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\skills\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\desktop\\final-app\\wilwefeedsa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\employerpurchasedjobseekers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\employerpurchasedjobseekers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\managenotifications\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\managenotifications\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\employerdashboard\\jobseekerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\employerdashboard\\jobseekerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\employerdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\employerdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\payment\\paymentcancelled.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\payment\\paymentcancelled.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\payment\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\payment\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\manageusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\manageusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\cv\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\cv\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\popia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\popia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\terms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\terms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\login\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\login\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\controllers\\employerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\employerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\userregister\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\userregister\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\controllers\\manageuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\manageuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\controllers\\employerpurchasedjobseekerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\employerpurchasedjobseekerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\controllers\\jobseekerregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\jobseekerregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\controllers\\jobseekercertificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\jobseekercertificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\controllers\\jobseekerprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\jobseekerprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\controllers\\jobseekerworkexp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\jobseekerworkexp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\controllers\\jobseekerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\jobseekerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\models\\jobseekerpersonalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:models\\jobseekerpersonalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerProfile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerProfile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerProfile\\Index.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerProfile\\Index.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAgwJUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T11:06:41.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerWorkExp\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerWorkExp\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerWorkExp\\Create.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerWorkExp\\Create.cshtml",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAowIYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T10:33:21.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\EmployerRegister\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmployerRegister\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\EmployerRegister\\Create.cshtml",
+              "RelativeToolTip": "Views\\EmployerRegister\\Create.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowHcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:29:47.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\EmployerSettings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmployerSettings\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\EmployerSettings\\Edit.cshtml",
+              "RelativeToolTip": "Views\\EmployerSettings\\Edit.cshtml",
+              "ViewState": "AQIAABoAAACAmZmZmdkowHkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:31:20.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditSkills.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Skills\\EditSkills.cshtml",
+              "RelativeDocumentMoniker": "Views\\Skills\\EditSkills.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Skills\\EditSkills.cshtml",
+              "RelativeToolTip": "Views\\Skills\\EditSkills.cshtml",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAowKEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T10:32:21.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerDashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerDashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerDashboard\\Index.cshtml",
+              "ViewState": "AQIAAA4AAACAMzMzMzMHwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T10:17:07.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\ManageUsers\\CreateAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\ManageUsers\\CreateAdmin.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\ManageUsers\\CreateAdmin.cshtml",
+              "RelativeToolTip": "Views\\ManageUsers\\CreateAdmin.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAgwEoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T13:21:48.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerRegister\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerRegister\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerRegister\\Create.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerRegister\\Create.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAowFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T09:28:54.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\ManageUsers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\ManageUsers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\ManageUsers\\Edit.cshtml",
+              "RelativeToolTip": "Views\\ManageUsers\\Edit.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T13:38:22.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T14:19:57.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\UserRegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserRegisterController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\UserRegisterController.cs",
+              "RelativeToolTip": "Controllers\\UserRegisterController.cs",
+              "ViewState": "AQIAAEcAAABga2ZmZqYmwC0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T11:51:46.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Skills\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Skills\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Skills\\Create.cshtml",
+              "RelativeToolTip": "Views\\Skills\\Create.cshtml",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAowIkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T10:28:26.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T18:51:11.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditCertificates.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerCertificate\\EditCertificates.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerCertificate\\EditCertificates.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerCertificate\\EditCertificates.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerCertificate\\EditCertificates.cshtml",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAowIcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T10:27:54.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerCertificate\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerCertificate\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerCertificate\\Create.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerCertificate\\Create.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowHcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T10:19:41.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditWorkExperience.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerWorkExp\\EditWorkExperience.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerWorkExp\\EditWorkExperience.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\JobSeekerWorkExp\\EditWorkExperience.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerWorkExp\\EditWorkExperience.cshtml",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAowIgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T10:33:52.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T16:09:15.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\AdminDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminDashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\AdminDashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminDashboard\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:11:18.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PaymentCancelled.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Payment\\PaymentCancelled.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\PaymentCancelled.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Payment\\PaymentCancelled.cshtml",
+              "RelativeToolTip": "Views\\Payment\\PaymentCancelled.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T09:38:58.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PaymentSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Payment\\PaymentSuccess.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payment\\PaymentSuccess.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Payment\\PaymentSuccess.cshtml",
+              "RelativeToolTip": "Views\\Payment\\PaymentSuccess.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:22:54.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\EmployerDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmployerDashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\EmployerDashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\EmployerDashboard\\Index.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAQwHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T14:25:51.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JobseekerDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\EmployerDashboard\\JobseekerDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmployerDashboard\\JobseekerDetails.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\EmployerDashboard\\JobseekerDetails.cshtml",
+              "RelativeToolTip": "Views\\EmployerDashboard\\JobseekerDetails.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T14:05:23.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\EmployerPurchasedJobSeekers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmployerPurchasedJobSeekers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\EmployerPurchasedJobSeekers\\Index.cshtml",
+              "RelativeToolTip": "Views\\EmployerPurchasedJobSeekers\\Index.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAswDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T09:36:54.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\ManageNotifications\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ManageNotifications\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\ManageNotifications\\Index.cshtml",
+              "RelativeToolTip": "Views\\ManageNotifications\\Index.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAwwHgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:13:14.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\ManageUsers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ManageUsers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\ManageUsers\\Index.cshtml",
+              "RelativeToolTip": "Views\\ManageUsers\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T13:15:07.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\CV\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\CV\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\CV\\Create.cshtml",
+              "RelativeToolTip": "Views\\CV\\Create.cshtml",
+              "ViewState": "AQIAABAAAABAZmZmZuYrwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T12:58:52.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Popia\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Popia\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Popia\\Index.cshtml",
+              "RelativeToolTip": "Views\\Popia\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T12:27:41.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Terms\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Terms\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Terms\\Index.cshtml",
+              "RelativeToolTip": "Views\\Terms\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T12:26:06.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAowEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T14:29:05.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAADwvzUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T13:38:52.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Employer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Models\\Employer.cs",
+              "RelativeDocumentMoniker": "Models\\Employer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Models\\Employer.cs",
+              "RelativeToolTip": "Models\\Employer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T13:41:00.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Login\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Login\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Views\\Login\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T12:12:35.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmployerDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\EmployerDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployerDashboardController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\EmployerDashboardController.cs",
+              "RelativeToolTip": "Controllers\\EmployerDashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T09:41:21.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T10:42:04.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\UserRegister\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserRegister\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Views\\UserRegister\\Create.cshtml",
+              "RelativeToolTip": "Views\\UserRegister\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T11:14:42.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ManageUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\ManageUsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManageUsersController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\ManageUsersController.cs",
+              "RelativeToolTip": "Controllers\\ManageUsersController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAcwHQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T11:51:22.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T14:30:49.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "JobSeekerCertificateController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\JobSeekerCertificateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobSeekerCertificateController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\JobSeekerCertificateController.cs",
+              "RelativeToolTip": "Controllers\\JobSeekerCertificateController.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAIsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:09:51.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SkillsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\SkillsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SkillsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\SkillsController.cs",
+              "RelativeToolTip": "Controllers\\SkillsController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAGMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:26:42.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "JobSeekerWorkExp.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\JobSeekerWorkExp.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobSeekerWorkExp.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\JobSeekerWorkExp.cs",
+              "RelativeToolTip": "Controllers\\JobSeekerWorkExp.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAiwBkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:25:00.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "JobSeekerProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\JobSeekerProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobSeekerProfileController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\JobSeekerProfileController.cs",
+              "RelativeToolTip": "Controllers\\JobSeekerProfileController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwEwAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:13:51.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "JobSeekerDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\JobSeekerDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobSeekerDashboardController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\JobSeekerDashboardController.cs",
+              "RelativeToolTip": "Controllers\\JobSeekerDashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T10:13:43.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EmployerPurchasedJobSeekersController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\EmployerPurchasedJobSeekersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployerPurchasedJobSeekersController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\EmployerPurchasedJobSeekersController.cs",
+              "RelativeToolTip": "Controllers\\EmployerPurchasedJobSeekersController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAiwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T09:56:50.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "JobSeekerPersonalInfo.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Models\\JobSeekerPersonalInfo.cs",
+              "RelativeDocumentMoniker": "Models\\JobSeekerPersonalInfo.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Models\\JobSeekerPersonalInfo.cs",
+              "RelativeToolTip": "Models\\JobSeekerPersonalInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T09:33:13.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "JobSeekerRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\JobSeekerRegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobSeekerRegisterController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\FINAL-APP\\WilWeFeedSA\\Controllers\\JobSeekerRegisterController.cs",
+              "RelativeToolTip": "Controllers\\JobSeekerRegisterController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T09:28:30.691Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

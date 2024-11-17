@@ -1,0 +1,87 @@
+﻿@model User
+
+<!-- Background Container with consistent properties -->
+<div class="background-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url('/Image/BackgroundAddSkill.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; z-index: -1;">
+</div>
+
+<!-- Main content container to overlay the background -->
+<div class="container-fluid" style="position: relative; z-index: 1; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 50px;">
+    <div class="row" style="width: 100%; display: flex; justify-content: space-evenly; align-items: flex-start;">
+        <!-- Left Column: Create Admin Form -->
+        <div class="col-md-5">
+            <h2 style="color: white; font-size: 56px; font-weight: bold; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); text-align: center;">Create Admin</h2>
+
+            <form id="createAdminForm" class="mt-4">
+                <div class="form-group">
+                    <label for="Username" style="color: white; font-size: 24px;">Username</label>
+                    <input type="text" class="form-control" id="Username" name="Username" style="font-size: 20px; border-radius: 10px;" required />
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="Password" style="color: white; font-size: 24px;">Password</label>
+                    <input type="password" class="form-control" id="Password" name="PasswordHash" style="font-size: 20px; border-radius: 10px;" required />
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="Email" style="color: white; font-size: 24px;">Email</label>
+                    <input type="email" class="form-control" id="Email" name="Email" style="font-size: 20px; border-radius: 10px;" required />
+                </div>
+
+                <input type="hidden" name="UserType" value="Admin" />
+
+                <div class="d-flex mt-4">
+                    <button type="button" id="createAdminButton" class="btn btn-success me-3" style="font-size: 20px; padding: 10px 30px;">Create Admin</button>
+                    <a href="@Url.Action("Index", "ManageUsers")" class="btn btn-secondary" style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 30px; font-size: 18px; font-weight: bold;">Back to Manage Users</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<!-- Toast Message -->
+<div id="toastMessage" class="toast align-items-center text-bg-success border-0 position-fixed bottom-0 end-0 p-3" style="display: none; z-index: 9999;" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+        <div class="toast-body">
+            Admin created successfully!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close" onclick="hideToastMessage()"></button>
+    </div>
+</div>
+
+<!-- JavaScript to Handle Toast Message and AJAX Request -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#createAdminButton').on('click', function (e) {
+            e.preventDefault();
+
+            // Perform an AJAX POST request to create admin without refreshing the page
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("CreateAdmin", "ManageUsers")',
+                data: $('#createAdminForm').serialize(),
+                success: function (response) {
+                    showToastMessage();
+                    $('#createAdminForm')[0].reset(); // Reset form fields
+
+                    // Redirect to Manage Users page after 3 seconds
+                    setTimeout(function () {
+                        window.location.href = '@Url.Action("Index", "ManageUsers")';
+                    }, 3000);
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error creating admin: ", error);
+                }
+            });
+        });
+    });
+
+    function showToastMessage() {
+        $("#toastMessage").fadeIn(500).delay(3000).fadeOut(500);
+    }
+
+    function hideToastMessage() {
+        $("#toastMessage").fadeOut(500);
+    }
+</script>

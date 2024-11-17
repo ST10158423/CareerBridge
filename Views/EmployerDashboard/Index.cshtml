@@ -1,0 +1,116 @@
+﻿@model IEnumerable<JobPortal1.Models.JobSeeker>
+
+@{
+    ViewBag.Title = "Employer Dashboard";
+}
+
+<!-- Background Container with consistent properties -->
+<div class="background-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url('/Image/backgroundLogin.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; z-index: -1;">
+</div>
+
+<!-- Main content container to overlay the background -->
+<div class="container-fluid" style="position: relative; z-index: 1; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 50px;">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card shadow-lg" style="background-color: rgba(120, 149, 162, 0.9); padding: 40px; border-radius: 15px;">
+                <h2 class="text-center mb-5" style="color: white; font-size: 48px; font-weight: bold; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);">Employer Dashboard</h2>
+
+                <!-- Action Buttons -->
+                <div class="text-center mb-5">
+                    <a href="@Url.Action("Index", "EmployerPurchasedJobSeekers", new { employerId = ViewBag.EmployerId })"
+                       class="btn btn-success" style="font-size: 18px; padding: 10px 30px; border-radius: 20px;">View Purchased Job Seekers</a>
+                    <a href="@Url.Action("Edit", "EmployerSettings", new { employerId = ViewBag.EmployerId })"
+                       class="btn btn-secondary" style="font-size: 18px; padding: 10px 30px; border-radius: 20px;">Employer Settings</a>
+                </div>
+
+                <!-- Search Form -->
+                <form method="get" asp-action="Index" class="mb-5">
+                    <input type="hidden" name="userId" value="@ViewBag.UserId" />
+                    <input type="hidden" name="employerId" value="@ViewBag.EmployerId" />
+
+                    <div class="row">
+                        <div class="col-md-3 mb-4">
+                            <label for="province" style="color: white; font-size: 24px;">Province</label>
+                            <input type="text" id="province" name="province" class="form-control" placeholder="Enter province" value="@ViewData["Province"]" style="font-size: 20px; border-radius: 20px;" />
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <label for="city" style="color: white; font-size: 24px;">City</label>
+                            <input type="text" id="city" name="city" class="form-control" placeholder="Enter city" value="@ViewData["City"]" style="font-size: 20px; border-radius: 20px;" />
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <label for="suburb" style="color: white; font-size: 24px;">Suburb</label>
+                            <input type="text" id="suburb" name="suburb" class="form-control" placeholder="Enter suburb" value="@ViewData["Suburb"]" style="font-size: 20px; border-radius: 20px;" />
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <label for="skill" style="color: white; font-size: 24px;">Skill</label>
+                            <input type="text" id="skill" name="skill" class="form-control" placeholder="Enter skill" value="@ViewData["Skill"]" style="font-size: 20px; border-radius: 20px;" />
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary" style="background-color: #1D4E7B; border-radius: 25px; padding: 15px 40px; font-size: 18px; font-weight: bold;">Search</button>
+                    </div>
+                </form>
+
+                <!-- Job Seekers List -->
+                <h3 class="text-center mb-4" style="color: white; font-size: 36px; font-weight: bold;">Job Seekers</h3>
+                <table class="table table-bordered table-hover" style="color: white;">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Location</th>
+                            <th>Skills</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                        {
+                            @foreach (var jobSeeker in Model)
+                            {
+                                <tr>
+                                    <td>@jobSeeker.FirstName</td>
+                                    <td>
+                                        @if (jobSeeker.JobSeekerPersonalInfos.Any())
+                                        {
+                                            var info = jobSeeker.JobSeekerPersonalInfos.First();
+                                            <span>@info.City, @info.Province, @info.Suburb</span>
+                                        }
+                                        else
+                                        {
+                                            <span>Location not provided</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (jobSeeker.JobSeekerSkills.Any())
+                                        {
+                                            <ul>
+                                                @foreach (var skill in jobSeeker.JobSeekerSkills)
+                                                {
+                                                    <li>@skill.SkillName (@skill.SkillLevel)</li>
+                                                }
+                                            </ul>
+                                        }
+                                        else
+                                        {
+                                            <span>No skills listed</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <a asp-action="JobSeekerDetails" asp-route-jobSeekerId="@jobSeeker.JobSeekerId" asp-route-employerId="@ViewBag.EmployerId" class="btn btn-info" style="border-radius: 20px; padding: 10px 20px; font-size: 18px;">More Info</a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="4" class="text-center" style="font-size: 20px;">No job seekers found</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

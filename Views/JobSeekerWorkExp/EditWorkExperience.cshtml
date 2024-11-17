@@ -1,0 +1,136 @@
+﻿@model IEnumerable<JobPortal1.Models.JobSeekerWorkExperience>
+
+@{
+    ViewBag.Title = "Edit Work Experience";
+}
+
+<!-- Background Container with consistent properties -->
+<div class="background-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url('/Image/BackgroundAddSkill.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; z-index: -1;">
+</div>
+
+<!-- Success Message Notification (hidden by default) -->
+<div id="successMessage" style="display:none; position: fixed; top: 20px; right: 20px; background-color: #4BB543; color: white; padding: 15px 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); z-index: 1000;">
+    Work experience updated successfully!
+</div>
+
+<!-- Main content container to overlay the background -->
+<div class="container-fluid" style="position: relative; z-index: 1; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 50px;">
+    <!-- Left side: Work Experience Form and Buttons -->
+    <div style="width: 40%; display: flex; flex-direction: column; justify-content: flex-start; background-color: rgba(120, 149, 162, 0.8); padding: 30px; border-radius: 15px;">
+        <h2 style="font-size: 48px; font-weight: bold; color: white; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);">EDIT WORK EXPERIENCE</h2>
+
+        <!-- Work Experience Form -->
+        <form id="workExpForm" style="margin-top: 20px;">
+            <div class="form-group">
+                <label for="CompanyName" style="color: white; font-size: 20px; margin-bottom: 5px;">Company Name</label>
+                <input type="text" name="CompanyName" class="form-control" placeholder="Company Name" style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: #F2F2F2; margin-bottom: 20px; border: none;" />
+            </div>
+
+            <div class="form-group">
+                <label for="CompanyAddress" style="color: white; font-size: 20px; margin-bottom: 5px;">Company Address</label>
+                <input type="text" name="CompanyAddress" class="form-control" placeholder="Company Address" style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: #F2F2F2; margin-bottom: 20px; border: none;" />
+            </div>
+
+            <div class="form-group">
+                <label for="CompanyPhoneNumber" style="color: white; font-size: 20px; margin-bottom: 5px;">Company Phone Number</label>
+                <input type="text" name="CompanyPhoneNumber" class="form-control" placeholder="Company Phone Number" style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: #F2F2F2; margin-bottom: 20px; border: none;" />
+            </div>
+
+            <!-- Add Experience Button -->
+            <div class="form-group">
+                <button type="button" id="addExpBtn" class="btn btn-primary" style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 40px; font-size: 16px;">Add Experience</button>
+            </div>
+
+            <input type="hidden" id="JobSeekerId" value="@ViewBag.JobSeekerId" />
+        </form>
+
+        <!-- Save Changes Button -->
+        <div class="form-group">
+            <button type="button" id="saveChangesBtn" class="btn btn-success" style="background-color: #1CAF50; border-radius: 25px; padding: 10px 40px; font-size: 16px;">Save Changes</button>
+        </div>
+    </div>
+
+    <!-- Right side: Work Experience List -->
+    <div style="width: 50%; margin-left: 30px;">
+        <h3 style="color: white;">Your Work Experience</h3>
+        <ul id="workExpList" class="list-group">
+            @foreach (var exp in Model)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center" data-exp-id="@exp.ExpId">
+                    <span>@exp.CompanyName - @exp.CompanyPhoneNumber</span>
+                    <button class="btn btn-danger btn-sm remove-exp-btn" data-exp-id="@exp.ExpId">Remove</button>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+<!-- Back to Profile Button -->
+<div style="position: fixed; bottom: 20px; right: 20px;">
+    <a href="@Url.Action("Index", "JobSeekerProfile", new { userId = ViewBag.UserId })" class="btn btn-secondary" style="background-color: #4CAF50; color: white; padding: 10px 20px; border-radius: 25px; font-size: 16px;">Back to Profile</a>
+</div>
+
+@section Scripts {
+    <script>
+        // Add Work Experience via AJAX
+        $('#addExpBtn').click(function () {
+            var formData = $('#workExpForm').serialize();
+            var jobSeekerId = $('#JobSeekerId').val();
+
+            $.ajax({
+                url: '@Url.Action("AddExperience", "JobSeekerWorkExp")',
+                type: 'POST',
+                data: formData + '&JobSeekerId=' + jobSeekerId,
+                success: function (data) {
+                    $('#workExpList').append(
+                        '<li class="list-group-item d-flex justify-content-between align-items-center" data-exp-id="' + data.expId + '">' +
+                        '<span>' + data.companyName + ' - ' + data.companyPhoneNumber + '</span>' +
+                        '<button class="btn btn-danger btn-sm remove-exp-btn" data-exp-id="' + data.expId + '">Remove</button>' +
+                        '</li>'
+                    );
+                    $('#workExpForm')[0].reset();
+                },
+                error: function () {
+                    alert("Error adding work experience");
+                }
+            });
+        });
+
+        // Remove Work Experience via AJAX
+        $(document).on('click', '.remove-exp-btn', function () {
+            var expId = $(this).data('exp-id');
+
+            $.ajax({
+                url: '@Url.Action("RemoveExperience", "JobSeekerWorkExp")',
+                type: 'POST',
+                data: { expId: expId },
+                success: function () {
+                    $('li[data-exp-id="' + expId + '"]').remove();
+                },
+                error: function () {
+                    alert("Error removing work experience");
+                }
+            });
+        });
+
+        $('#saveChangesBtn').click(function () {
+            var jobSeekerId = '@ViewBag.JobSeekerId';
+            var userId = '@ViewBag.UserId';
+
+            $.ajax({
+                url: '@Url.Action("CompleteExperience", "JobSeekerWorkExp")',
+                type: 'POST',
+                data: { jobSeekerId: jobSeekerId },
+                success: function () {
+                    $('#successMessage').fadeIn().delay(2000).fadeOut(function () {
+                        // Redirect to the profile page after saving
+                        window.location.href = '@Url.Action("Index", "JobSeekerProfile", new { userId = ViewBag.UserId })';
+                    });
+                },
+                error: function () {
+                    alert("Error saving work experience");
+                }
+            });
+        });
+    </script>
+}

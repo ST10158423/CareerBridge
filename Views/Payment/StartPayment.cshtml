@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Start Payment";
+}
+
+<h2>Payment for @ViewBag.JobSeekerName</h2>
+
+<p>Complete your payment to unlock the full details of this job seeker.</p>
+
+<form method="post" asp-action="CompletePayment" asp-controller="Payment">
+    <input type="hidden" name="interestId" value="@ViewBag.InterestId" />
+
+    <div class="form-group">
+        <label>Payment Amount</label>
+        <input type="number" name="amount" class="form-control" value="100" readonly />
+    </div>
+
+    <div class="form-group">
+        <label>Payment Method</label>
+        <select name="paymentMethod" class="form-control">
+            <option value="CreditCard">Credit Card</option>
+            <option value="PayPal">PayPal</option>
+            <option value="BankTransfer">Bank Transfer</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Proceed to Pay</button>
+</form>

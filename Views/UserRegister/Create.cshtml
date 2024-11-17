@@ -1,0 +1,60 @@
+﻿@model JobPortal1.Models.User
+
+@{
+    ViewBag.Title = "Register Page";
+}
+
+<!-- Main Container with Background Image -->
+<div class="background-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('/Image/BackgroundRandom.png'); background-size: cover; background-position: center; background-repeat: no-repeat; z-index: -1;">
+</div>
+
+<!-- Main content with registration form -->
+<div class="container-fluid" style="position: relative; z-index: 1; height: 100vh; display: flex; align-items: center; justify-content: center;">
+    <!-- Register form container -->
+    <div class="register-form" style="max-width: 450px; width: 100%; padding: 50px; background-color: rgba(255, 255, 255, 0.85); border-radius: 15px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
+        <!-- Register Header -->
+        <h1 style="font-size: 48px; font-weight: bold; color: #1D4E7B; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); text-align: center;">REGISTER</h1>
+
+        <form asp-action="Create" method="post">
+            <!-- Username Input -->
+            <div class="form-group mt-4">
+                <input asp-for="Username" class="form-control" placeholder="USERNAME" style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: rgba(255, 255, 255, 0.8); border: none; margin-bottom: 20px;" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <!-- Password Input -->
+            <div class="form-group">
+                <input asp-for="PasswordHash" class="form-control" type="password" placeholder="PASSWORD" style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: rgba(255, 255, 255, 0.8); border: none; margin-bottom: 20px;" />
+                <span asp-validation-for="PasswordHash" class="text-danger"></span>
+            </div>
+
+            <!-- Email Input -->
+            <div class="form-group">
+                <input asp-for="Email" class="form-control" placeholder="EMAIL" style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: rgba(255, 255, 255, 0.8); border: none; margin-bottom: 20px;" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <!-- User Role Dropdown -->
+            <div class="form-group">
+                <select asp-for="UserType" class="form-control" style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: rgba(255, 255, 255, 0.8); border: none;">
+                    <option value="" disabled selected>USER ROLE</option>
+                    <option value="JobSeeker">Job Seeker</option>
+                    <option value="Employer">Employer</option>
+                </select>
+                <span asp-validation-for="UserType" class="text-danger"></span>
+            </div>
+
+            <!-- Register Button -->
+            <div class="mt-4">
+                <button type="submit" class="btn btn-primary btn-block" style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 40px; font-size: 16px; width: 100%;">Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Footer with Privacy Link -->
+<footer style="position: fixed; bottom: 0; left: 0; width: 100%; text-align: center; padding: 10px; background-color: rgba(0, 0, 0, 0.5);">
+    <p style="color: white; margin: 0;">
+        © 2024 - CareerBridge - <a href="/Home/Privacy" style="color: #007BFF;">Privacy</a>
+    </p>
+</footer>

@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Admin Dashboard";
+}
+
+<!-- Background Container with consistent properties -->
+<div class="background-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url('/Image/BackgroundRandom.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; z-index: -1;">
+</div>
+
+<!-- Main content container to overlay the background -->
+<div class="container-fluid" style="position: relative; z-index: 1; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 50px;">
+
+    <!-- Title -->
+    <div class="row">
+        <div class="col-md-12 text-center mb-4">
+            <h2 style="color: white; font-size: 48px; font-weight: bold; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); margin-top: 20px;">Admin Dashboard</h2>
+        </div>
+    </div>
+
+    <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
+        <!-- Manage Users Tile -->
+        <div class="col-md-5 col-sm-6 col-12" style="max-width: 500px;">
+            <div style="background-color: rgba(120, 149, 162, 0.8); padding: 30px; border-radius: 10px; text-align: center;">
+                <h5 style="color: white; font-weight: bold;">Manage Users</h5>
+                <p style="color: white;">Click to view and manage all users.</p>
+                <a href="@Url.Action("ManageUsers", "AdminDashboard")" class="btn btn-primary" style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 30px; font-size: 16px;">Manage Users</a>
+            </div>
+        </div>
+
+        <!-- Manage Notifications Tile -->
+        <div class="col-md-5 col-sm-6 col-12" style="max-width: 500px;">
+            <div style="background-color: rgba(120, 149, 162, 0.8); padding: 30px; border-radius: 10px; text-align: center;">
+                <h5 style="color: white; font-weight: bold;">Manage Notifications</h5>
+                <p style="color: white;">Click to view and manage all notifications.</p>
+                <a href="@Url.Action("ManageNotifications", "AdminDashboard")" class="btn btn-primary" style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 30px; font-size: 16px;">Manage Notifications</a>
+            </div>
+        </div>
+    </div>
+
+</div>
